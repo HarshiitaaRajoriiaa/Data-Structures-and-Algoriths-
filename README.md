@@ -1,1 +1,1 @@
-dsa questions from different different platforms 
+dsa questions from different different platforms along with basics of java and Dsa including [time complexity, recusrion, sorting algorithms, Linked List, Stack, queue, Tree, number system, greedy, Dynamic programming, Matrix,  ]
