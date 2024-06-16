@@ -1,0 +1,11 @@
+1. sum of digits : 
+    number%10 = last digit of number
+    number/10 = give digit with removed last digit
+
+2. Digital Root: This means that for any integer, the remainder when it is divided by 9 is the same as the remainder when the sum of its digits is divided by 9.
+    General formula = sum = 1 + (n-1)%9
+    example = 38mod9 = 11mod9 = 2
+    i. if n%9==0 then sum of digits = 9 / 1+8 = 9, 3+6 = 9, 2+7 = 9...... 
+    ii. if n%9!=0 then sum of digits until one digit is left = 199%9 = 1
+
+3. 
