@@ -127,6 +127,15 @@ public class Loops{
         //     }
         // }
 
+        // * CONTINUE STATEMENT:
+        for (int i = 0 ; i < 10 ; i ++){
+            if(i%4==0){
+                continue;
+            }
+            System.out.println(i);
+            
+        }
+
         // //WITHOUT INITALISATION:
         // int i = 0;
         // for(;i<=20;i++){

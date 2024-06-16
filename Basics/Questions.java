@@ -3,8 +3,56 @@ import java.util.Scanner;
 import java.util.*;
 public class Questions {
     public static void main(String[] args) {
-        //*print maximum no. /take input from user:
         Scanner s = new Scanner(System.in);
+
+        // * FIZZ-BUZZ VARIATION: nothing to be printed if i%4==0
+        int N = s.nextInt();
+        for (int i=1;i<=N;i++){
+            if((i%3==0) && (i%5==0)){
+                System.out.println("FizzBuzz");
+            }
+            else if(i%5==0){
+                System.out.println("Buzz");
+            }
+            else if(i%3==0){
+                System.out.println("Fizz");
+            }
+            else if(i%4==0){
+                //System.out.println(" ");
+                continue;
+            }
+            else{
+                System.out.println(Integer.toString(i));
+            }
+
+        }
+        // * FIZZ-BUZZ VARIATION:stop when sum of no printed is > 3*N
+        // int N = s.nextInt();
+        // System.out.println(3*N);
+        // int sum = 0 ; 
+        // for (int i=1;i<=N;i++){
+        //     if((i%3==0) && (i%5==0)){
+        //         System.out.println("FizzBuzz");
+        //     }
+        //     else if(i%5==0){
+        //         System.out.println("Buzz");
+        //     }
+        //     else if(i%3==0){
+        //         System.out.println("Fizz");
+        //     }
+        //     else{
+        //         System.out.println(Integer.toString(i));
+        //         sum = sum + i;
+        //         System.out.println("sum is = " + sum);
+        //     }
+
+        //     if(sum>3*N){
+        //         break;
+        //     }
+        
+
+
+        //*print maximum no. /take input from user:
         // int n1 = s.nextInt();
         // int n2 = s.nextInt();
         // // **01 way:
@@ -58,12 +106,5 @@ public class Questions {
         // for(int i=1;i<=10;i++){
         //     System.out.println(N + " X " + i  + " = " + i*N);
         // }
-
-
-        // * 
-        
-
-
-
     }
 }
