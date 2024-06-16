@@ -1,4 +1,4 @@
-package Questions.Leetcode;
+package QuestionsFRomPlatforms.Leetcode;
 public class MaxConsecutiveOnes_485{
     public static void main(String[] args) {
         System.out.println();

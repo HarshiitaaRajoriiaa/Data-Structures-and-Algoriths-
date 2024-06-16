@@ -1,4 +1,4 @@
-package Questions.CodeForces;
+package QuestionsFRomPlatforms.CodeForces;
 import java.util.Scanner;
 /*
 *4A- Watermelon:

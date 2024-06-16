@@ -1,4 +1,4 @@
-package Questions.CodeForces;
+package QuestionsFRomPlatforms.CodeForces;
 import java.util.Scanner;
 /*
 * You are given three integers a, b, and c such that exactly one of these two equations is true:

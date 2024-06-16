@@ -1,4 +1,4 @@
-package Questions.GFG;
+package QuestionsFRomPlatforms.GFG;
 import java.util.Scanner;
 public class SumOFDigits {
      public static void main(String[] args) {
