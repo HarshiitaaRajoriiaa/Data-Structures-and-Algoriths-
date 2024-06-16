@@ -9,15 +9,19 @@ import java.util.Scanner;
 *Output :For each test case, output either + or - on a new line, representing the correct equation.
  */
 public class PlusandMinus {
-    public static void main(String[] args) {
-        Scanner s =new Scanner(System.in);
-        int a =s.nextInt();
-        int b =s.nextInt();
-        int c =s.nextInt();
-        if(1≤a && b≤9 && -8≤c && c≤18){
-            if((a+b)==c){
-                
+    public static void  main(String[] args) {
+        Scanner s= new Scanner(System.in);
+        int tcases = s.nextInt();
+        for (int i = 0; i < tcases; i++) {
+            int a = s.nextInt();
+            int b = s.nextInt();
+            int c = s.nextInt(); 
+            if (a + b == c) {
+                System.out.println("+");
+            } else if (a - b == c) {
+                System.out.println("-");
             }
         }
+        
     }
 }

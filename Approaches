@@ -1,4 +1,4 @@
-1. sum of digits : 
+1. Sum of digits of any integer: 
     number%10 = last digit of number
     number/10 = give digit with removed last digit
 
