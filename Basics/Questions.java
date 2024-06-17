@@ -5,27 +5,63 @@ public class Questions {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        // * FIZZ-BUZZ VARIATION: nothing to be printed if i%4==0
-        int N = s.nextInt();
-        for (int i=1;i<=N;i++){
-            if((i%3==0) && (i%5==0)){
-                System.out.println("FizzBuzz");
-            }
-            else if(i%5==0){
-                System.out.println("Buzz");
-            }
-            else if(i%3==0){
-                System.out.println("Fizz");
-            }
-            else if(i%4==0){
-                //System.out.println(" ");
-                continue;
-            }
-            else{
-                System.out.println(Integer.toString(i));
-            }
 
+        //* FIND GCD OF TWO NUMBERS:
+        int N1 = s.nextInt();
+        int N2 = s.nextInt();
+        int gcd = 0 ; 
+        for(int i= 1; i<=N1 && i<=N2;i++){
+            if((N1%i == 0 )&&  ( N2%i == 0 )){
+                gcd =i ; 
+            }
         }
+        System.out.println(gcd);
+
+        // * FIND FACTORS OF GIVEN NUMBER:
+        // int N = s.nextInt();
+        // for(int i=1;i<=N;i++){
+        //     if(N%i==0){
+        //         System.out.print(i + "," );
+        //     }
+        // }
+        //* FIND LEAST COMMON FACTOR OF TWO  GIVEN NUMBER:
+        // int N1 = s.nextInt();
+        // int N2 = s.nextInt();
+        // System.out.println( "factors of " + N1 + " = " );
+        // for(int i=1;i<=N1;i++){
+        //     if(N1%i==0){
+        //         System.out.print(i + " , ");
+        //     }
+        // }
+    
+        // System.out.println(" ");    
+        // System.out.println("factors of  " + N2 + " = " );
+        // for(int i=1;i<=N2;i++){
+        //     if(N2%i==0){
+        //         System.out.print( i + " , ");
+        //     }
+        // }
+
+        // * FIZZ-BUZZ VARIATION: nothing to be printed if i%4==0
+        // int N = s.nextInt();
+        // for (int i=1;i<=N;i++){
+        //     if((i%3==0) && (i%5==0)){
+        //         System.out.println("FizzBuzz");
+        //     }
+        //     else if(i%5==0){
+        //         System.out.println("Buzz");
+        //     }
+        //     else if(i%3==0){
+        //         System.out.println("Fizz");
+        //     }
+        //     else if(i%4==0){
+        //         //System.out.println(" ");
+        //         continue;
+        //     }
+        //     else{
+        //         System.out.println(Integer.toString(i));
+        //     }
+        //}
         // * FIZZ-BUZZ VARIATION:stop when sum of no printed is > 3*N
         // int N = s.nextInt();
         // System.out.println(3*N);
@@ -107,4 +143,5 @@ public class Questions {
         //     System.out.println(N + " X " + i  + " = " + i*N);
         // }
     }
+
 }

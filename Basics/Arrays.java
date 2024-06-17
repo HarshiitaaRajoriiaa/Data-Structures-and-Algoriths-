@@ -25,3 +25,9 @@ some important things to remember about java.arrays
 14. second diagonal = n(row) + n(col) = length of array - 1 = array.length - 1 ( if starting from 0 index)
 15. matrix multiplication = matmulA*B[i][j] =  sum(rowA[i]*colB[j])
  */
+
+ /*
+  * Array list:
+  1. arraylist.add() : add at the end
+  2. arraylist.add(position, element) : add at specific position.
+  */

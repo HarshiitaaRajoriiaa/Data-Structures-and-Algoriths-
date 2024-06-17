@@ -8,9 +8,7 @@ public class CountPrimes_204 {
         if(n == 1|| n==0){
             System.out.println(0);
         }
-        for(int i =2 ; i< n ; i++){
-            i%
-        }
+       
 
     }
 }
