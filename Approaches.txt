@@ -1,4 +1,4 @@
-https://discord.com/channels/1189210667450892378/1191490156004376707
+https://docs.google.com/spreadsheets/d/1l0d5dGHN8g_XI7BBCr1-xO3MIlbsHHd2270LsnkGxiQ/edit?gid=0#gid=0
 
 1. Sum of digits of any integer: 
     number%10 = last digit of number
