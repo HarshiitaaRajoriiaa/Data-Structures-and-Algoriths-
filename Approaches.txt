@@ -17,5 +17,6 @@ https://docs.google.com/spreadsheets/d/1l0d5dGHN8g_XI7BBCr1-xO3MIlbsHHd2270LsnkG
     iv. Every prime number can be represented in form of 6n + 1 or 6n – 1 except the prime numbers 2 and 3, where n is any natural number.
     5=6(1)-1 , 7 = 6(1)-1..........
 
-4.  Euclidean algorithm:The key idea is that gcd(a,b)=gcd(b,a%b). This means that the GCD of two numbers is the same as the GCD of the smaller number and the remainder when the larger number is divided by the smaller number.
+4.  Euclidean algorithm:The key idea is that gcd(a,b)=gcd(b,a%b). This means that the GCD(two numbers) is the same as the GCD( the smaller number and the remainder when the larger number is divided by the smaller number).
         {gfg/gcd.java}
+ 
