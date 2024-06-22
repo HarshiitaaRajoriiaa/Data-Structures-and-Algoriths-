@@ -5,17 +5,51 @@ public class Questions {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
+        // * pritn traingle sqaure pattern:
+        int N = 7;
+        for(int i=1;i<=N;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println(  );
+        }
+
+
+        // * print square star pattern:
+        // int N = 5;
+        // for(int i=1;i<=N;i++){
+        //     for(int j=1;j<=N;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println(  );
+        // }
+
+        // * print 0 ,  1 in alternative rows:
+        // int N = 7;
+        // for(int i=1;i<=N;i++){
+        //     for(int j=1;j<=N;j++){
+        //         if(i%2==0){
+        //             System.out.print("0");
+        //         }
+        //         else{
+        //             System.out.print("1");
+        //         }
+        //     }
+        //     System.out.println(  );
+        // }
+        
+
 
         //* FIND GCD OF TWO NUMBERS:
-        int N1 = s.nextInt();
-        int N2 = s.nextInt();
-        int gcd = 0 ; 
-        for(int i= 1; i<=N1 && i<=N2;i++){
-            if((N1%i == 0 )&&  ( N2%i == 0 )){
-                gcd =i ; 
-            }
-        }
-        System.out.println(gcd);
+        // int N1 = s.nextInt();
+        // int N2 = s.nextInt();
+        // int gcd = 0 ; 
+        // for(int i= 1; i<=N1 && i<=N2;i++){
+        //     if((N1%i == 0 )&&  ( N2%i == 0 )){
+        //         gcd =i ; 
+        //     }
+        // }
+        // System.out.println(gcd);
 
         // * FIND FACTORS OF GIVEN NUMBER:
         // int N = s.nextInt();

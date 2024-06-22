@@ -14,4 +14,5 @@ public class NoOfCommonFactors_2427 {
         } 
         return n;   
     }   
+    
 }

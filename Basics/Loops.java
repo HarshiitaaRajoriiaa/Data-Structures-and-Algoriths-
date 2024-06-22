@@ -37,34 +37,34 @@ public class Loops{
         //     System.out.println("both marks are below passing criteria:");
         
 
-        // //IF-ELSEIF-ELSE:
-        // // int marks = sc.nextInt();
-        // // if(marks>=90)
-        // //     System.out.println("good performance " + marks + " / 100");
+        //IF-ELSEIF-ELSE:
+        // int marks = sc.nextInt();
+        // if(marks>=90)
+        //     System.out.println("good performance " + marks + " / 100");
         
-        // // else if(marks>80)
-        // //     System.out.println("scored "  +marks+ "/100");
+        // else if(marks>80)
+        //     System.out.println("scored "  +marks+ "/100");
 
-        // // else if(marks>70)
-        // //     System.out.println("scored "  +marks+ "/100");
+        // else if(marks>70)
+        //     System.out.println("scored "  +marks+ "/100");
 
-        // // else if(marks>60)
-        // //     System.out.println("scored "  +marks+ "/100");
+        // else if(marks>60)
+        //     System.out.println("scored "  +marks+ "/100");
 
-        // // else if(marks>50)
-        // //     System.out.println("scored "  +marks+ "/100");
+        // else if(marks>50)
+        //     System.out.println("scored "  +marks+ "/100");
 
-        // // else if(marks>=40)
-        // //     System.out.println("have to work hard "  +marks + "/100" );
-        // // else{
-        // //     System.out.println("fail" + marks + "/100");
-        // // }
+        // else if(marks>=40)
+        //     System.out.println("have to work hard "  +marks + "/100" );
+        // else{
+        //     System.out.println("fail" + marks + "/100");
+        // }
 
 
-        // //TERNARY OPERATOR:
-        // /*
-        //  * Condition...? execute if true:execute if false
-        // */
+        //TERNARY OPERATOR:
+        /*
+         * Condition...? execute if true:execute if false
+        */
 
         // int mmarks= sc.nextInt();
         // boolean passed = mmarks>=33?true:false;
@@ -136,19 +136,19 @@ public class Loops{
             
         }
 
-        // //WITHOUT INITALISATION:
+        //WITHOUT INITALISATION:
         // int i = 0;
         // for(;i<=20;i++){
         //     System.out.println(i);
         // }
-        // //WITHOUT CONDITION:
+        //WITHOUT CONDITION:
         // for( ; ; i+=2){
         //     if(i==10){
         //     System.out.println(i);
         //     break;
         //     }
         // }
-        // //WITHOUT UPDATION:
+        //WITHOUT UPDATION:
         // for(;;){
         //     if(i==10){
         //         System.out.println(i);
