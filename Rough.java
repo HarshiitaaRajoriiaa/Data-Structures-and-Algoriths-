@@ -27,7 +27,6 @@ public class Rough {
         JLabel userLabel = new JLabel("User:");
         userLabel.setBounds(10, 20, 80, 25);
         panel.add(userLabel);}
-    
 }
 
 
