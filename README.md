@@ -23,6 +23,7 @@ Profiles:
 * https://www.geeksforgeeks.org/user/harshitarikp3/
 * https://codeforces.com/profile/harshi100403
 * https://www.hackerrank.com/profile/harshitarajoria2
+* https://www.codechef.com/users/harshita101308/edit
 
 Contact:
 * Email: harshitarajoria02@gmail.com
