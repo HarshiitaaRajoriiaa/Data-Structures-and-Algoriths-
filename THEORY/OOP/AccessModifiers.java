@@ -1,4 +1,4 @@
-package Basics.OOP;
+package THEORY.OOP;
 
 public class AccessModifiers {
 

@@ -1,4 +1,4 @@
-package Basics;
+package THEORY;
 
 public class Strings {
     public static void main(String[] args) {

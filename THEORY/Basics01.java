@@ -1,4 +1,4 @@
-package Basics;
+package THEORY;
 import java.util.Scanner;
 public class Basics01 {
     public static void main(String[] args) {

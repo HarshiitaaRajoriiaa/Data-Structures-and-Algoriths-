@@ -1,4 +1,4 @@
-package Basics.OOP;
+package THEORY.OOP;
 
 public class Inheritance {
     public static void main(String[] args) {
