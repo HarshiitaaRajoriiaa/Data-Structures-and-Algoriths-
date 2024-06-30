@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.CodeForces;
+package QUESTIONS.BASICS;
 import java.util.*;
 public class WaterConsumption {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.Leetcode;
+package QUESTIONS.BASICS;
 
 public class SumMultiples {
     public static void main(String[] args) {

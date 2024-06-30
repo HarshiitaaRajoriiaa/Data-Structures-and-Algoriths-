@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.Leetcode;
+package QUESTIONS.BASICS;
 
 public class PowerOf2_231 {
     public static void main(String[] args) {

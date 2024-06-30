@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.GFG;
+package QUESTIONS.BASICS;
 public class AmstrongNumbers{
     public static void main(String[] args) {
         System.out.println(armstrongNumber(371));

@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.GFG;
+package QUESTIONS.ARRAYS;
 
 public class ArraySort {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.HackerRank;
+package QUESTIONS.BASICS;
 
 public class FizzBuzz {
     public static void main(String[] args) {

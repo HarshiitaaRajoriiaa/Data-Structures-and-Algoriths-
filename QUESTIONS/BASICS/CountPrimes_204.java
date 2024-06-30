@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.Leetcode;
+package QUESTIONS.BASICS;
 import java.util.Scanner;
 public class CountPrimes_204 {
     public static void main(String[] args) {

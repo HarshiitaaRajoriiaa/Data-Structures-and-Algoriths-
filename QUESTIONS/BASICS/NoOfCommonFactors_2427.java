@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.Leetcode;
+package QUESTIONS.BASICS;
 
 public class NoOfCommonFactors_2427 {
     public static void main(String[] args) {

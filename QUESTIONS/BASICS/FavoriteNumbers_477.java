@@ -1,4 +1,4 @@
-package  QuestionsFromPlatforms.CodeChef;
+package  QUESTIONS.BASICS;
 import java.util.Scanner;
 import java.util.Scanner.*;
 public class FavoriteNumbers_477{

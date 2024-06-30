@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.GFG;
+package QUESTIONS.BASICS;
 
 public class MinMax {
    public static void main(String[] args) {

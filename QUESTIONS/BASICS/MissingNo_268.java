@@ -1,4 +1,4 @@
-package QuestionsFromPlatforms.Leetcode;
+package QUESTIONS.BASICS;
 
 public class MissingNo_268 {
     public static void main(String args[]){
