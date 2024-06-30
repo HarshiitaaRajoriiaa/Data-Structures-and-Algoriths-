@@ -1,5 +1,5 @@
 package QUESTIONS.BASICS;
-
+//https://leetcode.com/problems/ugly-number/
 public class UglyNumber_263 {
     public static void main(String[] args) {
         System.out.println(isUgly(21));

@@ -1,5 +1,5 @@
 package QUESTIONS.BASICS;
-
+//https://www.hackerrank.com/challenges/fizzbuzz/problem
 public class FizzBuzz {
     public static void main(String[] args) {
         fizzBuzz();

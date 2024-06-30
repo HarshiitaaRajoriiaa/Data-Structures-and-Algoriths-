@@ -1,6 +1,6 @@
 package  QUESTIONS.BASICS;
+//https://www.codechef.com/problems/FAVOURITENUM
 import java.util.Scanner;
-import java.util.Scanner.*;
 public class FavoriteNumbers_477{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

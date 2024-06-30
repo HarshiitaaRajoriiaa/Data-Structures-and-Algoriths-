@@ -8,6 +8,7 @@ import java.util.Scanner;
 * The description of each test case consists of three integers a, b, c(1≤a,b≤9, −8≤c≤18). The additional constraint on the input: it will be generated so that exactly one of the two equations will be true.
 *Output :For each test case, output either + or - on a new line, representing the correct equation.
  */
+//https://codeforces.com/problemset/problem/1807/A
 public class PlusandMinus {
     public static void  main(String[] args) {
         Scanner s= new Scanner(System.in);

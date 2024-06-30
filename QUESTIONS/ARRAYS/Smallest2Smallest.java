@@ -1,5 +1,5 @@
 package QUESTIONS.ARRAYS;
-
+//https://www.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/1
 public class Smallest2Smallest {
     public static void main(String[] args) {
         

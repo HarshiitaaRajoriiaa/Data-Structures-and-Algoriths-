@@ -1,5 +1,5 @@
 package QUESTIONS.ARRAYS;
-
+//https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1
 public class NoOFOccurence {
     public static void main(String[] args) {
         int Arr[] = {1, 1, 2, 2, 2, 2, 3};

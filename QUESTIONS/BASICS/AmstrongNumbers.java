@@ -1,4 +1,5 @@
 package QUESTIONS.BASICS;
+//https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1
 public class AmstrongNumbers{
     public static void main(String[] args) {
         System.out.println(armstrongNumber(371));

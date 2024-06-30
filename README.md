@@ -17,6 +17,7 @@ Platforms:
 * GeeksforGeeks
 * Codeforces
 * HackerRank
+* HackerEarth
 
 Profiles:
 * https://leetcode.com/u/Harshita100403/

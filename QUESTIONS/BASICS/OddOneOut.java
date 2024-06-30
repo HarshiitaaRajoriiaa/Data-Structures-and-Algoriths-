@@ -1,5 +1,6 @@
 package QUESTIONS.BASICS;
 import java.util.Scanner;
+//https://codeforces.com/contest/1915/problem/A
 import java.util.Scanner.*;
 public class OddOneOut {
     public static void main(String[] args) {

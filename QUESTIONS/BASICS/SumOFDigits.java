@@ -1,4 +1,5 @@
 package QUESTIONS.BASICS;
+//https://www.geeksforgeeks.org/problems/sum-of-digits1742/1
 import java.util.Scanner;
 public class SumOFDigits {
      public static void main(String[] args) {

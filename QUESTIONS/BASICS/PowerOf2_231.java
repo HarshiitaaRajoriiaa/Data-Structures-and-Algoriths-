@@ -1,5 +1,5 @@
 package QUESTIONS.BASICS;
-
+//https://leetcode.com/problems/power-of-two/
 public class PowerOf2_231 {
     public static void main(String[] args) {
         System.out.println(powerOf2(27));

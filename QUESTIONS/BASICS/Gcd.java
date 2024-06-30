@@ -1,4 +1,5 @@
 package QUESTIONS.BASICS;
+//https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
 public class Gcd{
     public static void main(String[] args) {
         System.out.println(gcd(20,40));
