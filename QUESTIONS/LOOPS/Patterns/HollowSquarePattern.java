@@ -1,4 +1,4 @@
-package QUESTIONS.LOOPS;
+package QUESTIONS.LOOPS.Patterns;
 
 public class HollowSquarePattern {
     public static void main(String[] args) {

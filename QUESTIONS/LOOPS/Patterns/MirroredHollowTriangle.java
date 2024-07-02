@@ -1,13 +1,13 @@
-package QUESTIONS.LOOPS;
+package QUESTIONS.LOOPS.Patterns;
 
-public class HollowTriangle {
+public class MirroredHollowTriangle {
     public static void main(String[] args) {
-        hollowTri(5);
+        mirroredHollowTri(4);
     }
-    public static void hollowTri(int n){
+    public static void mirroredHollowTri(int n){
         for(int i=0 ;i<n;i++){
-            for(int j=0;j<=i;j++){     
-                if(j==0 || i==j || i==n-1){
+            for(int j=0;j<n;j++){
+                if(j==n-1 || i==n-1 || i+j==n-1){
                     System.out.print("*");
                 }
                 else{

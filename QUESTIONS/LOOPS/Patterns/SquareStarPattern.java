@@ -1,4 +1,4 @@
-package QUESTIONS.LOOPS;
+package QUESTIONS.LOOPS.Patterns;
 
 public class SquareStarPattern {
     public static void main(String[] args) {
