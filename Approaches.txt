@@ -1,6 +1,5 @@
-https://docs.google.com/spreadsheets/d/1l0d5dGHN8g_XI7BBCr1-xO3MIlbsHHd2270LsnkGxiQ/edit?gid=0#gid=0
 https://github.com/HarshiitaaRajoriiaa/Data-Structures-and-Algoriths-
-
+https://docs.google.com/spreadsheets/d/1pkV65i9GJ6xuJVefrEn4MLoRhDjxFR0P6OizOlaa-bA/edit?gid=1963517939#gid=1963517939
 1. Sum of digits of any integer: 
     number%10 = last digit of number
     number/10 = give digit with removed last digit
