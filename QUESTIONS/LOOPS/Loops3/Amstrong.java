@@ -1,4 +1,4 @@
-package QUESTIONS.LOOPS.Loops2;
+package QUESTIONS.LOOPS.Loops3;
 
 public class Amstrong {
     public static void main(String[] args) {
