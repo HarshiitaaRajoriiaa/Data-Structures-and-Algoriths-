@@ -2,7 +2,7 @@ package QUESTIONS.LOOPS.Loops3;
 
 public class StrongNumbers {
     public static void main(String[] args) {
-        
+        // System.out.println("hello");
     }
     public static void strongNumbers(int n){
 
