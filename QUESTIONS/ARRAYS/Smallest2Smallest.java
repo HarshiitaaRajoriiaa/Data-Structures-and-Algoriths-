@@ -10,7 +10,7 @@ public class Smallest2Smallest {
         long min2 = Long.MAX_VALUE;
         for(int i =0;i<n;i++){
             if(a[i] < min){
-                 min2= min;
+                min2= min;
                 min  = a[i];
             }
             else if (a[i] < min2 && a[i] > min){

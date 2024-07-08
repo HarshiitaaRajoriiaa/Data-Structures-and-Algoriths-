@@ -19,4 +19,6 @@ https://docs.google.com/spreadsheets/d/1pkV65i9GJ6xuJVefrEn4MLoRhDjxFR0P6OizOlaa
 
 4.  Euclidean algorithm:The key idea is that gcd(a,b)=gcd(b,a%b). This means that the GCD(two numbers) is the same as the GCD( the smaller number and the remainder when the larger number is divided by the smaller number).
         {gfg/gcd.java}
- 
+
+5. PAIR:
+Pair<Integer , Integer> pair = new Pair<> ();
