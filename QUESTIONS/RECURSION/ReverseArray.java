@@ -1,4 +1,4 @@
-package RECURSION;
+package QUESTIONS.RECURSION;
 //https://leetcode.com/problems/reverse-string/description/
 public class ReverseArray {
    public static void main(String[] args) {

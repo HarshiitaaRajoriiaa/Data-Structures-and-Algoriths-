@@ -1,4 +1,4 @@
-package RECURSION;
+package QUESTIONS.RECURSION;
 //https://www.geeksforgeeks.org/problems/palindrome-string0817/1
 public class IsPalindrome {
     public static void main(String[] args) {
