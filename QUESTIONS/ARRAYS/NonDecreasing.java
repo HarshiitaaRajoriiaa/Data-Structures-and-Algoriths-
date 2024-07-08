@@ -7,7 +7,16 @@ public class NonDecreasing {
         
         
     }
-    public static int[] returnB(int length , int A[]){
+    // public static int[] returnB(int length , int A[]){
         
-    }
+    // }
+    
+    // while (multiple < B[i-1]) {
+    //     multiple += A[i];
+    // }
+
+    // if (multiple < B[i-1]) {
+    //     multiple += (B[i-1] - multiple + A[i] - 1) / A[i] * A[i];
+    // }
+    
 }
