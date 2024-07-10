@@ -11,13 +11,11 @@ public class SubArrayWithMaxSum {
         long max_sum = 0;
         long curr_sum = 0;
         
-        // Sum of the first subarray of size K
+        // Sum of the first sub array of size K
         for (int i = 0; i < K; i++) { // [0, K-1]
             curr_sum += Arr.get(i); // Add elements to curr_sum
         }   // TC = O(K)
-        
-        max_sum = curr_sum; // Initialize max_sum with the sum of the first subarray
-        
+        max_sum = curr_sum; // Initialize max_sum with the sum of the first sub array
         // Sliding window approach
         for (int start = 1, end = K; end < N; start++, end++) {  // TC = O(N-K)
             curr_sum = curr_sum - Arr.get(start - 1) + Arr.get(end);
