@@ -7,6 +7,9 @@ public class Arrays{
 
 /*
 some important things to remember about java.arrays
+
+
+
 *********************1-D ARRAYS:***************************
 1. Array.sort() 
 2. toString()
@@ -17,6 +20,11 @@ some important things to remember about java.arrays
 7. Integer.MAX_VALUE(); , Long.MAX_VALUE(); , Double.MAX_VALUE();
 8. Integer.MIN_VALUE()
 9. return new Pair(,)
+10. Number of SubArrays of Array of size K = (N-K+1).
+
+
+
+
 *********************MULTIDIMENSIONAL ARRAYS:***************************
 10. array[0].length = length/no. of  columns if symmetric matrix
 11. if jagged arrays ( array[1].length , array[2].length) if unsymmetric matrix

@@ -31,3 +31,5 @@ This means that the GCD(two numbers) is the same as the GCD( the smaller number 
 ```JAVA
 Pair<Integer , Integer> pair = new Pair<> ();
 ```
+6. Approach to answer question:
+    always try to grab all the piece of information is given in the question and should consider it.
