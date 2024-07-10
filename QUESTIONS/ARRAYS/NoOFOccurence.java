@@ -6,8 +6,7 @@ public class NoOFOccurence {
         System.out.println(count(Arr, 7, 2));
         
     }
-     public static int count(int[] arr, int n, int x) 
-    {
+    public static int count(int[] arr, int n, int x) {
         int count=0;
         for(int i=0;i<n;i++)
         {
