@@ -3,16 +3,16 @@ package QUESTIONS.ARRAYS;
 public class SubArrays {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5,6,7};
-        printSubArray(arr);
+        printSubArrays(arr , 7);
     }
-    public static void printSubArray(int arr[]){
-        int n = arr.length;
-        for (int i = 0; i < arr.length; i++) {
-           for (int j = i+1; j < arr.length; j++) {
-            for (int k = 0; k < arr.length; k++) {
-                System.out.print("(" + arr[i] + " , "+ arr[j]+ ")");
+    public static void printSubArrays(int arr[], int N) {
+        for (int strtpart = 0; strtpart < N; strtpart++) {  //first loop
+            for (int endpart = strtpart; endpart < N; endpart++) { //end part
+                for (int i = strtpart; i <= endpart; i++) {  //iterate over end and start part 
+                    System.out.print( arr[i] + " , ");
+                }
+                System.out.println();
             }
-           } 
         }
     }
 }
