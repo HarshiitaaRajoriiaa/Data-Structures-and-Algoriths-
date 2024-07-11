@@ -33,9 +33,6 @@ public class SubArrayWithMaxSum {
  * per sub array TC for have sum  = 0(K)
  * overall TC = (N-K+1)*K == N*K + K^2 + K == N*K.
   
-  
- 
-
  * DESIRED TC = 0(N)/ Sliding window Concept:
  * curr_sum = curr_sum - Arr.get(start - 1) + Arr.get(end);
  */
