@@ -1,6 +1,6 @@
 package QUESTIONS.ARRAYS;
 //https://leetcode.com/problems/maximum-subarray/description/
-public class MaximumSubAray {
+public class MaxSumSubAray {
     public static void main(String[] args) {
 
     }
