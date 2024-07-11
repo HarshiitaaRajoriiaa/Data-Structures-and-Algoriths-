@@ -1,5 +1,6 @@
- //https://leetcode.com/problems/count-elements-with-maximum-frequency/description/
-package QUESTIONS.ARRAYS;
+
+//https://leetcode.com/problems/count-elements-with-maximum-frequency/description/
+package QUESTIONS.ARRAYS.MAX_MIN;
 
 public class ElementWithMaxFreq {
     public static void main(String[] args) {

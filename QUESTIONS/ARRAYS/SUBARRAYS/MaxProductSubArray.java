@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+package QUESTIONS.ARRAYS.SUBARRAYS;
 //https://leetcode.com/problems/subarray-product-less-than-k/description/
 public class MaxProductSubArray {
     public static void main(String[] args) {

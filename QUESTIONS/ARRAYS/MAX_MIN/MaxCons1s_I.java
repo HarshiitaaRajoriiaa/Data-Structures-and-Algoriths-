@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+package QUESTIONS.ARRAYS.MAX_MIN;
 //https://leetcode.com/problems/max-consecutive-ones/
 public class MaxCons1s_I {
     public static void main(String[] args) {

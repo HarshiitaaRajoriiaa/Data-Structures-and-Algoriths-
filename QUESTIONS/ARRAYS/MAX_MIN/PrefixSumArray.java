@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+package QUESTIONS.ARRAYS.MAX_MIN;
 
 import java.util.Vector;
 
