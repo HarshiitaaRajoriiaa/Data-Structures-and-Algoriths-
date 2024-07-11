@@ -1,6 +1,6 @@
 package QUESTIONS.ARRAYS;
 //https://leetcode.com/problems/max-consecutive-ones/
-public class MaxCons1s {
+public class MaxCons1s_I {
     public static void main(String[] args) {
         
     }
