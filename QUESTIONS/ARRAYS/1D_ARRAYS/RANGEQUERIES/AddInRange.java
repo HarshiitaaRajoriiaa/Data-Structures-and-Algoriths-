@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS.RANGEQUERIES;
+
 import java.util.*;
 // *DESCRIPTION:given range = you have to add 1 in between that range and after all the queries return the after array.
 public class AddInRange {

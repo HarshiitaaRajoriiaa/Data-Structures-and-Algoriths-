@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+
 import java.util.*;
 //https://leetcode.com/problems/rotate-array/
 public class RotatingArray {

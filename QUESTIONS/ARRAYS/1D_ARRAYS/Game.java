@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+
 import java.util.Arrays;
 
 //https://leetcode.com/problems/minimum-number-game/description/
