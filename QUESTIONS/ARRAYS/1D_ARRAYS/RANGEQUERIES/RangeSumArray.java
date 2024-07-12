@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS.RANGEQUERIES;
+
 //https://leetcode.com/problems/range-sum-query-immutable/description/
 
 public class RangeSumArray {
