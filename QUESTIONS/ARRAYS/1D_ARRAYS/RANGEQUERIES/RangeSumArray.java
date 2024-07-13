@@ -10,13 +10,12 @@ class NumArray {  // * TC = 0(K+N).
     public NumArray(int[] nums) {
         int n = nums.length;
         prefixSum = new int[n];
-        // prefixSum[0] = nums[0];
-        for(int i = 0; i< n;i++){
+        for(int i = 0; i< n;i++){ // *TC = 0(N)
             prefixSum[i] = i==0? nums[0]: prefixSum[i-1] + nums[i];
         }
     }
     
-    public int sumRange(int left, int right) {
+    public int sumRange(int left, int right) { // *TC = 0(K) == K = right-left.
         if(left==0)
             return prefixSum[right];
         
