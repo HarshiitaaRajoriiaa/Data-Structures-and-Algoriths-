@@ -1,4 +1,3 @@
-package QUESTIONS.ARRAYS;
 import java.util.*;
 //https://leetcode.com/problems/merge-sorted-array/
 public class Merge2SortedArray {

@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS.MAX_MIN;
+
 
 public class MinMaxElements {
     public static void main(String[] args) {

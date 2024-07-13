@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS.MAX_MIN;
+
 import java.util.*;
 // * DECRYPTION: given an index find the maximum element of the array excluding the element of that index.
 public class MaxExcept_i {

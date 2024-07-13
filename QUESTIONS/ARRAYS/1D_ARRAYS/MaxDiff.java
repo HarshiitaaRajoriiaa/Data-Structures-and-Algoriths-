@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS.MAX_MIN;
+
 //https://leetcode.com/problems/maximum-difference-between-increasing-elements/
 public class MaxDiff {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //https://www.codechef.com/problems/MAXCOUNT
-package QUESTIONS.ARRAYS.MAX_MIN;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;

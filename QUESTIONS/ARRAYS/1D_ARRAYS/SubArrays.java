@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS.SUBARRAYS;
+
 // * SUB-ARRAY = continuos part of array == N * (N + 1) / 2
 public class SubArrays {
     public static void main(String[] args) {

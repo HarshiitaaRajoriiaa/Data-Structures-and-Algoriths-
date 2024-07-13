@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+
 //https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
 public class ArraySort {
     public static void main(String[] args) {
