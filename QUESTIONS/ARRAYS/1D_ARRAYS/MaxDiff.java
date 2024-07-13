@@ -21,3 +21,7 @@ public class MaxDiff {
 /*
  * APPROACH: consider current element to be j and from the arr[0] to arr[j-1] have the smallest to find the maximum difference.
  */
+
+
+
+ 

@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+
 //https://leetcode.com/problems/number-of-employees-who-met-the-target/description/
 public class NoOfEmployee {
     public static void main(String[] args) {

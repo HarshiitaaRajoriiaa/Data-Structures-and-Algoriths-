@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+
 import java.util.*;
 //
 public class PrefixMaxArray {

@@ -1,4 +1,4 @@
-package QUESTIONS.ARRAYS;
+
 //https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
 public class ReplaceElement {
     public static void main(String[] args) {
