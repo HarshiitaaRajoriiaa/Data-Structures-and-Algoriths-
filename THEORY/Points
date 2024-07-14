@@ -1,2 +1,3 @@
 1. primitive data types passed by value.
 2. non primitive data types passed by reference. 
+3. The java string.ValueOf() method converts different types of values into string. By the help of string valueOf() method, you can convert int to string, long to string, boolean to string, character to string, float to string, double to string, object to string and char array to string.
