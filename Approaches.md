@@ -1,6 +1,4 @@
-* [GITHUB REPO:](https://github.com/HarshiitaaRajoriiaa/Data-Structures-and-Algoriths-)
-* [DSA QUESTIONS TRACKER SHEET:](https://docs.google.com/spreadsheets/d/1pkV65i9GJ6xuJVefrEn4MLoRhDjxFR0P6OizOlaa-bA/edit?usp=sharing)
-
+### List of approaches i used while encountering the problems:
 1. Sum of digits of any integer: 
     number%10 = last digit of number
     number/10 = give digit with removed last digit
