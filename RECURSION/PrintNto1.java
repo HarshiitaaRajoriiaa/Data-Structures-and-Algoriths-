@@ -1,5 +1,5 @@
 //https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/0
-public class Printnto1 {
+public class PrintNto1 {
     public static void main(String[] args) {
         
     }

@@ -1,4 +1,4 @@
-package ARRAY;
+
 //https://leetcode.com/problems/sort-colors/
 import java.util.Arrays;
 

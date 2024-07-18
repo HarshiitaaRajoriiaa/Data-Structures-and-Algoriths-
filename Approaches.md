@@ -32,3 +32,5 @@ Pair<Integer , Integer> pair = new Pair<> ();
 6. Approach to answer question:
 
     always try to grab all the piece of information is given in the question and should consider every info.
+
+7.  any integer can be expressed as one of the following forms: 6n,6n+1,6n+2,6n+3,6n+4,or 6n+5

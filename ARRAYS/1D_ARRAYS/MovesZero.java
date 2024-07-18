@@ -1,4 +1,4 @@
-package ARRAY;
+
 public class MovesZero {
     //https://leetcode.com/problems/move-zeroes/
     public static void main(String[] args) {
