@@ -2,7 +2,8 @@
 public class Print1toN {
     public static void main(String[] args) {
         
-    }
+    } 
+    // *TC = 0(N)
     public static void print(int n){
         if(n==0){
             System.out.println(" ");
@@ -10,7 +11,6 @@ public class Print1toN {
         
         //backtracking:
         print(n-1);
-        System.out.println(n);
-        
+        System.out.println(n); 
     }
 }
