@@ -1,10 +1,9 @@
 
-
 public class MinMaxElements {
     public static void main(String[] args) {
         
     }
-    public Pair<Long, Long> getMinMax(int[] arr) {
+    public static Pair<Long, Long> getMinMax(int[] arr) {
         long min = Long.MAX_VALUE;
         long max = Long.MIN_VALUE;
         
@@ -17,6 +16,6 @@ public class MinMaxElements {
             }
         }
         
-        return new Pair<>(min, max);
+        return new Pair <>(min, max);
     }
 }

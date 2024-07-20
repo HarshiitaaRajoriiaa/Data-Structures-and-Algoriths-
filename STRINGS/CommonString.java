@@ -1,4 +1,4 @@
-package QUESTIONS.STRINGS;
+package STRINGS;
 //https://leetcode.com/problems/greatest-common-divisor-of-strings/submissions/1321393843/?envType=study-plan-v2&envId=leetcode-75
 public class CommonString {
  public static void main(String[] args) {

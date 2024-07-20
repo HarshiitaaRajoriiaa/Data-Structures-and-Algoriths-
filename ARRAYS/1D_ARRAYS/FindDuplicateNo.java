@@ -1,4 +1,4 @@
-package ARRAY;
+
 //https://leetcode.com/problems/find-the-duplicate-number/description/
 public class FindDuplicateNo{
     public static void main(String[] args) {

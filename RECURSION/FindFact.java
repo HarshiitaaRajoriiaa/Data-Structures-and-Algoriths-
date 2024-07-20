@@ -13,12 +13,13 @@ public class FindFact{
 
     //with recursion:
     public static int  factorial2(int n){
+        int result = 0 ;
         if (n ==0 || n==1){
             return 1;
         }
 
         else{
-            int result  = n*factorial2(n-1);
+            result  = n*factorial2(n-1);
         }
         return result;
         }

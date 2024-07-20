@@ -1,4 +1,4 @@
-package QUESTIONS.BASICS;
+package BASICS;
 import java.util.Scanner;
 //https://codeforces.com/contest/1915/problem/A
 import java.util.Scanner.*;

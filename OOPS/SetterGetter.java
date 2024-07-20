@@ -1,4 +1,4 @@
-package QUESTIONS.OOPS;
+package OOPS;
 //https://www.codechef.com/learn/course/college-oops-java/CPOPJA01/problems/OPJA05
 public class SetterGetter {
     private int myField;

@@ -1,4 +1,4 @@
-package QUESTIONS.RECURSION;
+
 //https://www.geeksforgeeks.org/problems/sum-of-digit-is-pallindrome-or-not2751/1
 public class SumDigitIsPalindrome {
     public static void main(String[] args) {

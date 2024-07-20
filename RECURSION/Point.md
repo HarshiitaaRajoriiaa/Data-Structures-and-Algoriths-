@@ -7,7 +7,7 @@ public double myPow(double x, int n) {
             x = 1/x;
             n = -n;
         }
-        //1 way 
+        1 way 
         /* 
         * liner recursion tree height of tree = log(N)
         * TC = 0(log(n))
@@ -17,7 +17,7 @@ public double myPow(double x, int n) {
         return half*half*x;
 
 
-        //2 way
+        2 way
         /*
         * TC = 0(N)
         * height of recursion tree = log(N) , no of nodes in n level = 2^n

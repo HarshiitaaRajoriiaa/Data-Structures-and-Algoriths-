@@ -1,4 +1,4 @@
-package QUESTIONS.LOOPS.Loops1;
+package LOOPS.Loops1;
 
 public class Power {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package QUESTIONS.STRINGS;
-
+package STRINGS;
 public class ToLowerCase {
     public static void main(String[] args) {
         
