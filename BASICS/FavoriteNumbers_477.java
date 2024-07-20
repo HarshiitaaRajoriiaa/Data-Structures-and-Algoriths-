@@ -1,4 +1,4 @@
-package  QUESTIONS.BASICS;
+package BASICS;
 //https://www.codechef.com/problems/FAVOURITENUM
 import java.util.Scanner;
 public class FavoriteNumbers_477{

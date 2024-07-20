@@ -1,4 +1,4 @@
-package QUESTIONS.BASICS;
+package BASICS;
 //https://leetcode.com/problems/missing-number/description/
 public class MissingNo_268 {
     public static void main(String args[]){

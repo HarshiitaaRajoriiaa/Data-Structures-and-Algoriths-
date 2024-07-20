@@ -1,4 +1,4 @@
-package QUESTIONS.OOPS;
+package OOPS;
 //https://www.codechef.com/learn/course/college-oops-java/CPOPJA01/problems/OPJA06
 class BankAccount {
     public static void main(String[] args) {

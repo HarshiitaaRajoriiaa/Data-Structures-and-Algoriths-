@@ -1,4 +1,4 @@
-package QUESTIONS.LOOPS.Loops1;
+package LOOPS.Loops1;
 
 import java.util.ArrayList;
 

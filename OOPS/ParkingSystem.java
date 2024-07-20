@@ -1,4 +1,4 @@
-package QUESTIONS.OOPS;
+package OOPS;
 //https://leetcode.com/problems/design-parking-system/submissions/1313846920/
 class ParkingSystem {
     private int big;

@@ -1,4 +1,4 @@
-package QUESTIONS.STRINGS;
+package STRINGS;
 //https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
 public class MergeStrings {
     public static void main(String[] args) {

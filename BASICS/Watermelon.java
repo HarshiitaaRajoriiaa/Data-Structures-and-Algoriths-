@@ -1,4 +1,4 @@
-package QUESTIONS.BASICS;
+package BASICS;
 import java.util.Scanner;
 /*
 *4A- Watermelon:

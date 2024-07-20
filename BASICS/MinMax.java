@@ -1,4 +1,4 @@
-package QUESTIONS.BASICS;
+package BASICS;
 
 public class MinMax {
    public static void main(String[] args) {

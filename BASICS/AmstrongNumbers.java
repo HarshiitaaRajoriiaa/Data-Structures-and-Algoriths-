@@ -1,4 +1,4 @@
-package QUESTIONS.BASICS;
+package BASICS;
 //https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1
 public class AmstrongNumbers{
     public static void main(String[] args) {

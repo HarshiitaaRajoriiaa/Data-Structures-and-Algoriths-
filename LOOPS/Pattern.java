@@ -1,4 +1,4 @@
-package QUESTIONS.LOOPS;
+package LOOPS;
 
 public class Pattern {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package QUESTIONS.BASICS;
+package BASICS;
 import java.util.*;
 //https://www.codechef.com/problems/WATERCONS
 public class WaterConsumption {
