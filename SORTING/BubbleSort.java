@@ -6,12 +6,8 @@ public class BubbleSort {
     }
     public static void BubbleSort(int arr[]){
         int n = arr.length;
-        int j = n-1;
-        
-        for(int i = 0 ; i < j;i++){
-            if(arr[i] > arr[i+1]){
-                swap(arr, i, i+1);
-            }
+        for(int i = 0 ; i<n;i++){
+            
         }
     }
     public static void swap(int arr[], int i1 , int i2){
