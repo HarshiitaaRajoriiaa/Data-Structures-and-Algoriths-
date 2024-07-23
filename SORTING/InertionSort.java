@@ -6,18 +6,22 @@ package SORTING;
 // *SC = 0(1)
 // * STABLE ALGORITHM.
 public class InertionSort {
-      //Function to sort the array using insertion sort algorithm.
-  public void insertionSort(int arr[], int n)
-  {
-      //code here
-      for(int i = 1 ; i<n;i++){
-          //target is to accomdate arr[i] to arr[0]....to arr[i-1].
-          int currNum = arr[i] , j = i-1;
-          while(j>=0 && arr[j]>currNum ){
-              arr[j+1] = arr[j]; //shifting element till we get the placw where arr[j] <= currNum
-              j--;
-          }
-          //j will either -1 or index s.t arr[j] <=currNum
-          arr[j+1] = currNum;
-      }
-  }}
+    public static void main(String[] args) {
+        
+    }
+    public static void insertionSort(int arr[]){
+        for(int i = 1; i<arr.length;i++){
+            int currElement = arr[i] ;
+            int j = i-1;
+            while(j>=0 && arr[j] > currElement){
+                arr[j+1] = arr[j];  //shift
+            }
+            arr[j+1] = currElement;
+        }
+    }
+    public static void swap(int arr[], int i1 , int i2){
+        int temp= arr[i1];
+        arr[i1] = arr[i2];
+        arr[i2] = temp;
+    }
+}
