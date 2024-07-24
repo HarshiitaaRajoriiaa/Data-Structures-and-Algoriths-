@@ -3,7 +3,7 @@ package SORTING;
 public class SelectionSort {
     public static void main(String[] args) {
         int arr[] = {12, 3, 9, 7, 8 , 1 , 2 ,  7 , 5 }; //
-        System.out.println(select(arr, 2));
+        // System.out.println(select(arr, 2));
         
     }
     int  select(int arr[], int i){ //select minimum element of array from subarray [i ,n]{ 
