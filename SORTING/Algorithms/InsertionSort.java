@@ -1,11 +1,11 @@
-package SORTING;
+package Algorithms;
 //https://www.geeksforgeeks.org/problems/insertion-sort/1
 //line by line inserting element to the right as needed.
 //from index 1 and n-1 we are checking its position and insert it to it's place because arr[0] is always sorted.
 // *TC = 0(N2)
 // *SC = 0(1)
 // * STABLE ALGORITHM.
-public class InertionSort {
+public class InsertionSort {
     public static void main(String[] args) {
         
     }
