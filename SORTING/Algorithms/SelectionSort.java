@@ -6,7 +6,7 @@ public class SelectionSort {
         // System.out.println(select(arr, 2));
         
     }
-    int  select(int arr[], int i){ //select minimum element of array from subarray [i ,n]{ 
+    int  select(int arr[], int i){ //select minimum element of array from sub array [i ,n]{ 
         // code here such that selectionSort() sorts arr[] , will select minimum element from [i to n-1]
         int n = arr.length;
         int min  = Integer.MAX_VALUE;

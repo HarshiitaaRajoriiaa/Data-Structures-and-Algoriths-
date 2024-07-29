@@ -1,65 +1,57 @@
 package Algorithms;
 import java.util.*;
+import java.util.function.Function;
 public class QuickSort{
     public static void main(String[] args) {
         int arr[] = {12, 18, 16, 1, 9, 10, 2, 4, 0, 3, 10};
         quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
-    public static void quickSort(int arr[] , int start , int end){
-        int pivot = partition(arr);
-        start = 0;
-         end = arr.length;
-        quickSort(arr ,  start , pivot-1);
-        quickSort(arr, pivot+1, end);
+    public static void quickSort(int arr[], int l, int r)
+    {
+        // code here
+        if(l>= r){ //either one element or no element
+            return;
+        }
+        int pivot = partition( arr,  l,  r);
+        quickSort(arr,l, pivot-1 );
+        quickSort(arr, pivot+1 ,r);
     }
-
-
-
 
 /*  
 TODO: approach is to pick any random element of array call it PIVOT.
 TODO :divide the array on basic of array put smaller < PIVOT in the left and greater > PIVOT in the right. and recursively call function in the both halves.
 */
     // *Time Complexity = 0(N)
-    public static  int  partition(int arr[] ){ 
-        int n = arr.length;
+    public static int partition(int arr[], int l, int r)
+    {
+        // your code here
+        // int n = arr.length;
         ArrayList<Integer> small =  new ArrayList<>();
         ArrayList<Integer> big =  new ArrayList<>();
-        int Pivot = arr[n-1];
-
-        // * TC =0(N)
-        // ? iterAte over second last element only. 
-        for(int i = 0 ; i<n-1;i++){  
-            if(arr[i] <= Pivot){ // ?smaller and equal ones in the small.
-                small.add(arr[i]);
+        int pivot = arr[r]; // r = n-1;
+        for(int i = l; i < r; i++) {
+            if(arr[i] <= pivot) {
+                small.add(arr[i]); // Corrected to add elements to the list
             }
-            if(arr[i]>Pivot){ //? greater one are in the big.
-                big.add(arr[i]);
+            else {
+                big.add(arr[i]); // Corrected to add elements to the list
             }
         }
-
-        int  n1 = small.size();
-        int n2 = big.size();
-        // *TC = 0(small.size() ===  N )
-        for(int i = 0 ; i<n1;i++){ //? copying small in the array back again.
-            arr[i] = small.get(i);
-        }
-
-        //?putting pivot in its original place.
-        arr[small.size()] = Pivot; 
-
-        // *Time Complexity = 0(big.size() == N )
-        //? copying small in the array back again.
-        int j = 0;
-        for(int i = n1+1 ; i < n;i++){ 
-            arr[i] = big.get(j);
+        int j = l;//0
+        for(int i = 0; i < small.size(); i++) {
+            arr[j] = small.get(i);
             j++;
         }
-
-        
-        return small.size();
-    }
+        arr[j] = pivot;
+        int index = j;
+        j++;
+        for(int i = 0; i < big.size(); i++) {
+            arr[j] = big.get(i);
+            j++;
+        }
+        return index;
+    } 
 }
 
 
