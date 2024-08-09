@@ -1,5 +1,5 @@
 package BASICS;
-//https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
+// TODO:https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
 public class Gcd{
     public static void main(String[] args) {
         System.out.println(gcd(20,40));
@@ -17,4 +17,5 @@ public class Gcd{
 }
 
 
-// *  Euclidean algorithm 
+// *   The Greatest Common Divisor (GCD) of two integers is the largest positive integer that divides both numbers without leaving a remainder.  the GCD of two numbers also divides their difference.
+// * EUCLIDEAN THEOREM : gcd(a ,b ) == gcd(a,b/a)

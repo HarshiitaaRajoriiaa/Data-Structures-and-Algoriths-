@@ -1,7 +1,7 @@
 package BASICS;
-import java.util.Scanner;
+import java.util.*;
 //https://codeforces.com/contest/1915/problem/A
-import java.util.Scanner.*;
+
 public class OddOneOut {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

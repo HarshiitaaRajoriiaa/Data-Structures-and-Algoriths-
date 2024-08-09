@@ -1,5 +1,5 @@
 package BASICS;
-//https://www.geeksforgeeks.org/problems/sum-of-digits1742/1
+//TODO : https://www.geeksforgeeks.org/problems/sum-of-digits1742/1
 import java.util.Scanner;
 public class SumOFDigits {
      public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class SumOFDigits {
         System.out.println(sumOfDigits1(N));
         System.out.println(sumOfDigits2(N));
     }
-    //METHOD:01
+    //?METHOD:01
     public static int sumOfDigits1(int N) {
         int sum = 0 ;
         while(N>0){
@@ -18,7 +18,7 @@ public class SumOFDigits {
         return sum;
     }
     
-    //METHOD:02
+    //?METHOD:02
      public static int sumOfDigits2(int N) {
         int sum = 0 ; 
         for(int i=N ; i > 0 ; i/=10){

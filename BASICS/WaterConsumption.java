@@ -1,6 +1,6 @@
 package BASICS;
 import java.util.*;
-//https://www.codechef.com/problems/WATERCONS
+//TODO:https://www.codechef.com/problems/WATERCONS
 public class WaterConsumption {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

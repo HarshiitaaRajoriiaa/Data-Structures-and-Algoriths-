@@ -1,5 +1,5 @@
 package BASICS;
-//https://leetcode.com/problems/sum-multiples/description/
+// TODO:https://leetcode.com/problems/sum-multiples/description/
 public class SumMultiples {
     public static void main(String[] args) {
         System.out.println(sumOfMultiples(7));
