@@ -1,27 +1,20 @@
-package PATTERNS;
+package PATTERNS.TrianglePattern;
 
-//     *****
-//    *****
-//   *****
-//  *****
-// *****
-public class TiltedRhombusstar {
+public class MirrorTriangle {
     public static void main(String[] args) {
-        tiltedRhombusstar(5);;
+        print(5);
     }
 
-    public static void tiltedRhombusstar(int N) {
+    public static void print(int N) {
         int j;
         for (int i = 1; i <= N; i++) {
             for (j = 1; j <= N - i; j++) {
                 System.out.print(" ");
             }
-            /* Print stars after spaces */
-            for (j = 1; j <= N; j++) {
+            for (j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
     }
 }
