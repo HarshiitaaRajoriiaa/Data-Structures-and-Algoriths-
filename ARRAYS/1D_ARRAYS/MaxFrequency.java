@@ -1,9 +1,5 @@
 //https://www.codechef.com/problems/MAXCOUNT
-
-
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class MaxFrequency {
@@ -23,7 +19,7 @@ public class MaxFrequency {
             }
 
             countMaximum1(length, arr);
-            countMaximum2(length, arr);
+            maxOccured( arr , length);
         }
         s.close();
     }
@@ -37,7 +33,6 @@ public class MaxFrequency {
 	        for(int j= 0;j<n;j++){  //compare
 	          if(arr[i]==arr[j]){
 	              curr++;
-
 	              if(curr>maxfreq || (curr == maxfreq && arr[i] < element)){
 	                  maxfreq=curr;
 	                  element = arr[i];
@@ -49,27 +44,21 @@ public class MaxFrequency {
 	}
 
     // *HASHMAP METHOD:
-    public static void countMaximum2(int n, int[] arr) {
-        HashMap<Integer, Integer> frequencyMap = new HashMap<>(); //HASHMAP DECLARATION AND FORMATION
-        
+    public static int[] maxOccured(int arr[], int n) {
+        int freq[] = new int[100000 + 1];
+        // Count the frequency of each element in the array
         for (int i = 0; i < n; i++) {
-            frequencyMap.put(arr[i], frequencyMap.getOrDefault(arr[i], 0) + 1);
+            freq[arr[i]]++;
         }
-        
-        int maxFreq = -1;
-        int element = Integer.MAX_VALUE;
-
-        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
-            int key = entry.getKey();
-            int value = entry.getValue();
-            
-            if (value > maxFreq || (value == maxFreq && key < element)) {
-                maxFreq = value;
-                element = key;
+        // Find the element with the maximum frequency
+        int max = -1;
+        int element = -1;
+        for (int i = 0; i < freq.length; i++) {
+            if (freq[i] > max) {
+                max = freq[i];
+                element = i;
             }
         }
-        
-        System.out.println(element + " " + maxFreq);
+        return new int[] {element, max};
     }
-
 }

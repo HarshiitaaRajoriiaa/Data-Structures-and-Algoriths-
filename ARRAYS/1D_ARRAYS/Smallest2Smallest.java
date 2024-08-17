@@ -4,8 +4,7 @@ public class Smallest2Smallest {
     public static void main(String[] args) {
         
     }
-    public  static long[] minAnd2ndMin(long a[], long n)  
-    {
+    public  static long[] minAnd2ndMin(long a[], long n)  {
         long min = Long.MAX_VALUE;
         long min2 = Long.MAX_VALUE;
         for(int i =0;i<n;i++){
