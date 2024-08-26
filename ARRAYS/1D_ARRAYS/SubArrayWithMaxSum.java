@@ -36,3 +36,7 @@ public class SubArrayWithMaxSum {
  * DESIRED TC = 0(N)/ Sliding window Concept:
  * curr_sum = curr_sum - Arr.get(start - 1) + Arr.get(end);
  */
+
+ /*
+  * In the algorithm, the curr_sum is reset to 0 when it becomes negative because a negative sum would decrease the overall sum of any future sub array.
+  */
