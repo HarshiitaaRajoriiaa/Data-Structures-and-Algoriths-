@@ -1,6 +1,6 @@
 public class test {
     public static void main(String[] args) {
-        System.out.println('b'>'a');
-
+       String name = "hSarhita";
+       System.out.println(name.charAt(4));
     }
 }
