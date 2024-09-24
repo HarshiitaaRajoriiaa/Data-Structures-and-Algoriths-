@@ -21,4 +21,5 @@ public class AddDigits_258 {
 }
 
 
-//
+//! if digit is multiple of 9, then sum of digits = 9
+//! if not then, sum of digits = digit % 9 

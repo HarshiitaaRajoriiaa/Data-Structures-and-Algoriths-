@@ -14,7 +14,6 @@ public class PowerOf2_231 {
         while(n%2==0){
             n/=2;
         }
-
         return (n==1);
     }
 }

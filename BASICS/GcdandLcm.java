@@ -1,7 +1,5 @@
 
-
 import java.util.Scanner;
-
 // The sum of numbers from 1 to N, S=N*(N+1)/2 and Product P=1*2*3*..*N 
 // For P to be divisible by S, All we have to do is to check whether N+1 is prime or not, 
 // if it is prime then sum of the numbers will not divide product of the numbers
@@ -14,12 +12,10 @@ public class GcdandLcm {
 
         while(t-- > 0) {
             int N = sc.nextInt();
-
             if(N == 1) {
                 System.out.println("YES");
                 continue;
             }
-
             // If N+1 is prime, then No
             // Otherwise Yes.
             boolean isPrime = true;

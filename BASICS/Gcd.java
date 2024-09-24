@@ -17,5 +17,6 @@ public class Gcd{
 }
 
 
-// *   The Greatest Common Divisor (GCD) of two integers is the largest positive integer that divides both numbers without leaving a remainder.  the GCD of two numbers also divides their difference.
+// *   The Greatest Common Divisor (GCD) of two integers is the largest positive integer that divides both numbers without leaving a remainder.  
+// *the GCD of two numbers also divides their difference.
 // * EUCLIDEAN THEOREM : gcd(a ,b ) == gcd(a,b/a)
