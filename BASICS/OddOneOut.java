@@ -1,4 +1,4 @@
-package BASICS;
+
 import java.util.*;
 //https://codeforces.com/contest/1915/problem/A
 

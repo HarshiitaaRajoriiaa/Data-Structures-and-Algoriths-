@@ -1,4 +1,4 @@
-package BASICS;
+
 //TODO: https://www.geeksforgeeks.org/problems/prime-number2314/1
 public class IsPrime {
     public static void main(String[] args) {

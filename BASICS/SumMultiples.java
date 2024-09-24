@@ -1,4 +1,4 @@
-package BASICS;
+
 // TODO:https://leetcode.com/problems/sum-multiples/description/
 public class SumMultiples {
     public static void main(String[] args) {

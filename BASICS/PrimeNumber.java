@@ -1,4 +1,4 @@
-package BASICS;
+
 //https://www.geeksforgeeks.org/problems/prime-number2314/1
 public class PrimeNumber {
     public static void main(String[] args) {

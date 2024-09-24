@@ -1,4 +1,4 @@
-package BASICS;
+
 // TODO: https://leetcode.com/problems/power-of-two/
 public class PowerOf2_231 {
     public static void main(String[] args) {

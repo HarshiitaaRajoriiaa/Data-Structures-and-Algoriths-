@@ -1,4 +1,4 @@
-package BASICS;
+
 // TODO: https://leetcode.com/problems/number-of-common-factors/
 public class NoOfCommonFactors_2427 {
     public static void main(String[] args) {

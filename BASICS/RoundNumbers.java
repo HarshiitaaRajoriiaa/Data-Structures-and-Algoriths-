@@ -1,4 +1,4 @@
-package BASICS;
+
 import java.util.*;
 // TODO : https://codeforces.com/contest/1352/problem/A
 import java.util.Scanner;

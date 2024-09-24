@@ -1,4 +1,4 @@
-package BASICS;
+
 import java.util.Scanner;
 //https://leetcode.com/problems/count-primes/description/
 public class CountPrimes_204 {

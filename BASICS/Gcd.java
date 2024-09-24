@@ -1,4 +1,4 @@
-package BASICS;
+
 // TODO:https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1
 public class Gcd{
     public static void main(String[] args) {

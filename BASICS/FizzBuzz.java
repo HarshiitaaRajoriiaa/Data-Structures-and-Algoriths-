@@ -1,4 +1,4 @@
-package BASICS;
+
 // TODO: https://www.hackerrank.com/challenges/fizzbuzz/problem
 public class FizzBuzz {
     public static void main(String[] args) {

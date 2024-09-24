@@ -1,4 +1,4 @@
-package BASICS;
+
  // In the question one condition is missing,
 // which is that the number of bananas given to each of the people should be equal.
 

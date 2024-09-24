@@ -1,4 +1,4 @@
-package BASICS;
+
 //https://leetcode.com/problems/max-consecutive-ones/description/
 public class MaxConsecutiveOnes_485{
     public static void main(String[] args) {
