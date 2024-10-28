@@ -43,7 +43,7 @@ public class MaxFrequency {
         System.out.println( element + " " + maxfreq);
 	}
 
-    // *HASHMAP METHOD:
+    // *HashArray  METHOD:
     public static int[] maxOccured(int arr[], int n) {
         int freq[] = new int[100000 + 1];
         // Count the frequency of each element in the array

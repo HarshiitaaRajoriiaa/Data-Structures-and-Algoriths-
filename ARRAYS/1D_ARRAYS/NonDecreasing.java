@@ -2,7 +2,7 @@
 import java.util.*;
 //?https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/make-it-non-decreasing-7d3391fd/
 
-class TestClass {
+class NonDecreasing {
     public static void main(String args[] ) throws Exception {
         Scanner s = new Scanner(System.in);
         int t = s.nextInt();  // Number of test cases

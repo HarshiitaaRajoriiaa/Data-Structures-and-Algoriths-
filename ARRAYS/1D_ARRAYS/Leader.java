@@ -8,12 +8,11 @@ public class Leader {
     static ArrayList<Integer> leaders(int n, int arr[]) {
         // Your code here
         ArrayList<Integer> result = new ArrayList<>();
-        int current =-1, max = -1;
+        int  max = -1;
         for(int i=n-1 ; i>=0;i--){
-            current = arr[i];
-            if(current>=max){
-                max = current;
-                result.add(current);
+            if(arr[i]>=max){
+                max = arr[i];
+                result.add(arr[i]);
             } 
         }
         Collections.reverse(result);
