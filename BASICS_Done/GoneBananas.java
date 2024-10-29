@@ -1,7 +1,4 @@
 
- // In the question one condition is missing,
-// which is that the number of bananas given to each of the people should be equal.
-
 import java.util.Scanner;
 // Since every banana is to be given away and the number of banana each monkey receives is an integer , 
 // we can choose a M number of monkeys, such that M is a divisor of N. 

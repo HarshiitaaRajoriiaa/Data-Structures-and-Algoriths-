@@ -2,7 +2,6 @@
 public class SumOfiRowAndjCol {
 
     public static void main(String[] args) {
-        
     }
     int sumOfRowCol(int N, int M, int A[][]) {
         // Calculate the number of valid rows and columns
@@ -13,7 +12,6 @@ public class SumOfiRowAndjCol {
             for (int j = 0; j < M; ++j) {
                 rowSum += A[i][j];
             }
-
             // Calculate the sum of elements in the ith column
             int colSum = 0;
             for (int j = 0; j < N; ++j) {

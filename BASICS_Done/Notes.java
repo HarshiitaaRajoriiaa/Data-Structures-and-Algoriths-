@@ -5,7 +5,7 @@ public class Notes {
     public static void main(String[] args) {
         System.out.println("notes");
         Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
+        int n = s.nextInt(); //amount
         int notes[] = {500, 100, 50, 20, 10, 5, 2, 1};
         int count = 0;
         for (int i = 0; i < notes.length; i++) {

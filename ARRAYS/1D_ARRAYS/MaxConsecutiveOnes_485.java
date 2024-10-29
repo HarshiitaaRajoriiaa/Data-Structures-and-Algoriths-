@@ -1,4 +1,5 @@
 
+
 //https://leetcode.com/problems/max-consecutive-ones/description/
 public class MaxConsecutiveOnes_485{
     public static void main(String[] args) {
@@ -8,7 +9,6 @@ public class MaxConsecutiveOnes_485{
          System.out.println(sol);
 
     }
-
     public static int findMaxConsecutiveOnes(int [] nums){
         int n= nums.length;
         int max = 0;
