@@ -1,14 +1,11 @@
 package Algorithms;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-
 public class MergeSort {
     public static void main(String[] args) { 
-
     }
-
     class Solution {
+        //Recursion function:
         public int[] sortArray(int[] nums) {
             int n = nums.length;
             if (n == 1) {
@@ -21,11 +18,12 @@ public class MergeSort {
             return merge2SortedArray(left, right);
 
         }
-
         public static int[] merge2SortedArray(int arr1[], int arr2[]) {
             int n1 = arr1.length;
             int n2 = arr2.length;
             int arr[] = new int[n1 + n2];
+            //k = for new array
+            // i and j for n1 and n2 respectively
             int i = 0, j = 0, k = 0;
             while (i < n1 && j < n2) {
                 if (arr1[i] > arr2[j]) {
