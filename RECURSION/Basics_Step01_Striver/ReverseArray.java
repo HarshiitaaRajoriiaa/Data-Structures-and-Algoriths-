@@ -1,5 +1,5 @@
-
-//https://leetcode.com/problems/reverse-string/description/
+package Basics_Step01_Striver;
+//? https://www.geeksforgeeks.org/problems/reverse-an-array/1
 public class ReverseArray {
    public static void main(String[] args) {
       char s[] = {'e' , 'p' , 'i' , 'y'};
